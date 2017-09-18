@@ -1,0 +1,65 @@
+.title {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.price {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.card {
+  padding: 10px;
+  width: 200px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgb(212, 211, 211);
+}
+
+.input {
+  padding: 8px;
+  width: 22px;
+  border-radius: 5px;
+}
+
+.input::-webkit-inner-spin-button, 
+.input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.button {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  background: none;
+  cursor: pointer;
+}
+
+.buttonAddItem {
+  background: #fcd500;
+  border: 1px solid #fcd500;
+}
+
+.buttonRemoveItem {
+  border: 1px solid #f71336;
+} 
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

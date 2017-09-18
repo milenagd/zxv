@@ -1,0 +1,28 @@
+.wrapper {
+  height: 120px;
+  background-color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.loginButton {
+  border: 2px solid #fcd500;
+  background-color: transparent;
+  color: #fcd500;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+}
+
+.logo {
+  color: #fff;
+}
