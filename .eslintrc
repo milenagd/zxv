@@ -1,0 +1,46 @@
+{
+  "env": {
+      "browser": true,
+  },
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": './webpack.config.js'
+      }
+    },
+  },
+  "plugins": [
+      "react",
+      "jsx-a11y"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+  ],
+  "rules": {
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+      "comma-dangle": ["error", "always-multiline"],
+      "array-bracket-spacing": ["warn","always", {
+        "arraysInArrays": false,
+        "objectsInArrays": false
+      }],
+      "object-curly-spacing": ["warn", "always", {
+        "arraysInObjects": false,
+        "objectsInObjects": false
+      }],
+      "computed-property-spacing": ["error", "never"],
+      "no-console": ["error", { allow: ["warn", "error"] }],
+      "no-alert": ["error"],
+      "max-len": ["error", {
+        "code": 80,
+        "ignoreStrings": true,
+        "ignoreComments": true,
+        "ignoreRegExpLiterals": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreUrls": true
+      }],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    }
+}
