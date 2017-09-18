@@ -1,0 +1,17 @@
+.filters {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.totalProducts {
+  border: 2px solid #9A9393;
+  color: #9A9393;
+  padding: 12px;
+}
